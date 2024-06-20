@@ -1,0 +1,250 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "luis",
+        "avatar": "/luis-avatar.jpeg"
+      },
+      {
+        "id": "2",
+        "name": "josua",
+        "avatar": "josua-avatar.jpeg"
+      },
+      {
+        "id": "5026",
+        "name": "carlos",
+        "avatar": "/luis-avatar.jpeg"
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "name": "a comment about post 1",
+        "userIncludeId": [
+          "1"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "another comment about post 2",
+        "userIncludeId": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "id": "76c5",
+        "name": "test project",
+        "userIncludeId": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "fd81",
+        "name": "example comment",
+        "userIncludeId": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "lists": [
+      {
+        "id": "1",
+        "nameList": "Todo",
+        "projects": [
+          {
+            "id": "1",
+            "name": "a comment about post 1"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "nameList": "in progress",
+        "projects": [
+          {
+            "id": "2",
+            "name": "a comment about post 2"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "done",
+        "projects": [
+          {
+            "id": "1",
+            "name": "a comment about post 1"
+          },
+          {
+            "id": "2",
+            "name": "a comment about post 2"
+          }
+        ]
+      },
+      {
+        "id": "2e42",
+        "nameList": "on hold",
+        "projects": [
+          {
+            "id": "76c5",
+            "name": "test project"
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": "1",
+        "title": "task information",
+        "subTitle": "subTitle information",
+        "description": "description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ],
+        "usersIncluded": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "3"
+          }
+        ],
+        "listId": "1"
+      },
+      {
+        "id": "2",
+        "title": "task information",
+        "subTitle": "subTitle information",
+        "description": "description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ],
+        "usersIncluded": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "3"
+          }
+        ],
+        "listId": "76c5"
+      },
+      {
+        "id": "3",
+        "title": "task information",
+        "subTitle": "subTitle information",
+        "description": "description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ],
+        "usersIncluded": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "3"
+          }
+        ],
+        "listId": "2"
+      }
+    ],
+    "subtasks": [
+      {
+        "id": "1",
+        "parentTaskId": "3",
+        "listId": "parentListId",
+        "title": "subtask information",
+        "userIncludeId": "parentUsers",
+        "description": "new subtask description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "parentTaskId": "2",
+        "listId": "parentListId",
+        "userIncludeId": "parentUsers",
+        "title": "subtask information",
+        "description": "subtask description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "parentTaskId": "1",
+        "listId": "parentListId",
+        "userIncludeId": "parentUsers",
+        "title": "subtask information",
+        "description": "subtask description information",
+        "dateCreation": "2022-01-01T00:00:00.000Z",
+        "comments": [
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          },
+          {
+            "author": "userId",
+            "dateCreation": "2022-01-01T00:00:00.000Z",
+            "text": "comment information"
+          }
+        ]
+      }
+    ]
+  }
