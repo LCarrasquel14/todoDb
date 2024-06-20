@@ -21,7 +21,15 @@
       "id": "1",
       "name": "a comment about post 1",
       "onwerId": "1",
-      "usersIncludeId": ["2", "3"]
+      "usersIncludeId": ["2", "3"],
+      "dateCreation": "2022-01-01T00:00:00.000Z",
+      "lists": [
+        {
+          "id": "1",
+          "nameList": "Todo"
+        }
+      ]
+
     }
   ],
   "lists": [
