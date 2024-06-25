@@ -22,32 +22,26 @@
       "name": "a comment about post 1",
       "onwerId": "1",
       "usersIncludeId": ["2", "3"],
-      "dateCreation": "2022-01-01T00:00:00.000Z",
-      "lists": [
-        {
-          "id": "1",
-          "nameList": "Todo"
-        }
-      ]
-
+      "dateCreation": "2022-01-01T00:00:00.000Z"
     }
   ],
   "lists": [
     {
       "id": "1",
       "nameList": "Todo",
-      "projects": [
-        {
-          "id": "1",
-          "name": "a comment about post 1"
-        }
-      ]
+      "projectId": "1"
+    },
+    {
+      "id": "2",
+      "nameList": "Doing",
+      "projectId": "1"
     }
   ],
   "tasks": [
     {
       "id": "1",
       "title": "task information",
+      "parentTask": null,
       "subTitle": "subTitle information",
       "description": "description information",
       "dateCreation": "2022-01-01T00:00:00.000Z",
@@ -70,29 +64,28 @@
         {
           "id": "3"
         }
-      ],
-      "listId": "1"
-    }
-  ],
-  "subtasks": [
+      ]
+    },
     {
-      "id": "1",
-      "parentTaskId": "3",
-      "listId": "parentListId",
-      "title": "subtask information",
-      "userIncludeId": "parentUsers",
-      "description": "new subtask description information",
+      "id": "2",
+      "title": "task information",
+      "parentTask": "1",
+      "subTitle": "subTitle information",
+      "description": "description information",
       "dateCreation": "2022-01-01T00:00:00.000Z",
       "comments": [
         {
           "author": "userId",
           "dateCreation": "2022-01-01T00:00:00.000Z",
           "text": "comment information"
+        }
+      ],
+      "usersIncluded": [
+        {
+          "id": "2"
         },
         {
-          "author": "userId",
-          "dateCreation": "2022-01-01T00:00:00.000Z",
-          "text": "comment information"
+          "id": "3"
         }
       ]
     }
