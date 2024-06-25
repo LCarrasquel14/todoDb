@@ -29,12 +29,14 @@
     {
       "id": "1",
       "nameList": "Todo",
-      "projectId": "1"
+      "projectId": "1",
+      "tasks": [{}]
     },
     {
       "id": "2",
       "nameList": "Doing",
-      "projectId": "1"
+      "projectId": "1",
+      "tasks": [{}]
     }
   ],
   "tasks": [
