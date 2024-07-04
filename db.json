@@ -43,6 +43,7 @@
     {
       "id": "1",
       "title": "task information",
+      "listId": "1",
       "parentTask": null,
       "subTitle": "subTitle information",
       "description": "description information",
