@@ -3,17 +3,20 @@
     {
       "id": "1",
       "name": "luis",
-      "avatar": "/luis-avatar.jpeg"
+      "avatar": "/luis-avatar.jpeg",
+      "email": "luis@gmail.com"
     },
     {
       "id": "2",
       "name": "josua",
-      "avatar": "josua-avatar.jpeg"
+      "avatar": "josua-avatar.jpeg",
+      "email": "josua@gmail.com"
     },
     {
       "id": "5026",
       "name": "carlos",
-      "avatar": "/luis-avatar.jpeg"
+      "avatar": "/luis-avatar.jpeg",
+      "email": "carlos@gmail.com"
     }
   ],
   "projects": [
